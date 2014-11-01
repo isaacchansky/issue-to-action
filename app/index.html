@@ -1,0 +1,189 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Issue to Action</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- build:css styles/vendor.css -->
+
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/animate-css/animate.css">
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <div class="header row">
+                <h3 class="brand pull-left">Issue <span class="color">to</span> Action</h3>
+                <p class="pull-right"><em>Share an issue/concern</em></p>
+            </div>
+
+            <div class="issue-form-container">
+                <form class="form-human issue-form" action="#" role="issue-form">
+                    <p class="form-human-content">I feel that</p>
+                    <input type="text" name="issue" class="form-human-input" placeholder="my issue" required>
+                    <p class="form-human-content">is an</p>
+                    <br>
+                    <p class="form-human-content"> issue because</p>
+                    <input type="text" name="audience" class="form-human-input" placeholder="students, children, etc..." required>
+                    <br>
+                    <p class="form-human-content">deserve</p>
+                    <input type="text" name="reason" class="form-human-input" placeholder="something..." required>
+                    <button type="submit" class="form-human-btn"> &rarr;</button>
+                </form>
+            </div>
+
+            <div class="issue-results-container hidden" role="issue-results">
+                <h1 class="issue-statement">
+                I feel that <span role="submitted-issue"></span> is an issue because
+                <span role="submitted-audience"></span> deserve
+                <span role="submitted-reason"></span>.</h1>
+                <ul role="tag-list">
+
+                </ul>
+
+                <div class="row">
+                    <p class="search-opt-text col-sm-3"><span role="agreements"></span> others agree!</p>
+                    <p class="search-opt-text col-sm-3"> in a radius of <span class="filter-text">20 miles</span></p>
+                    <div class="issue-results-container row">
+
+                        <div class="col-sm-8">
+                          <div class="row card">
+                                <p class="text-right text-muted"> added: 10/31/2014</p>
+                            <p>I feel that <button type="button" class="tag-btn btn btn-primary">T fares</button> are too high is an issue because <button type="button" class="tag-btn btn btn-primary">students</button> deserve(s) <button type="button" class="tag-btn btn btn-primary">accessible </button><button type="button" class="tag-btn btn btn-primary"> public transportation</button></p>
+                          </div>
+                          <div class="row card">
+                                <p class="text-right text-muted"> added: 10/31/2014</p>
+                              <p>I feel that the <button type="button" class="tag-btn btn btn-primary">subway fares</button> for <button type="button" class="tag-btn btn btn-primary">students</button> are too high because I deserve <button type="button" class="tag-btn btn btn-primary">affordable</button> <button type="button" class="tag-btn btn btn-primary">public transportation</button></p>
+                          </div>
+                          <div class="row card">
+                                <p class="text-right text-muted"> added: 10/31/2014</p>
+                              <p>I feel that the <button type="button" class="tag-btn btn btn-primary">schedule of public buses</button> is an issue for <button type="button" class="tag-btn btn btn-primary">commuters</button> because I <button type="button" class="tag-btn btn btn-primary">arrive late to class</button></p>
+                          </div>
+                          <div class="row card">
+                                <p class="text-right text-muted"> added: 10/31/2014</p>
+                              <p>I feel that <button type="button" class="tag-btn btn btn-primary">trash</button> on the <button type="button" class="tag-btn btn btn-primary">Orange Line</button> is an issue for <button type="button" class="tag-btn btn btn-primary">me</button> because I deserve <button type="button" class="tag-btn btn btn-primary">clean public transit</button></p>
+                          </div>
+                          <div class="row card">
+                                <p class="text-right text-muted"> added: 10/31/2014</p>
+                              <p>I feel that <button type="button" class="tag-btn btn btn-primary">trash</button> around the <button type="button" class="tag-btn btn btn-primary">Beacon St. bus stop</button> is an issue for <button type="button" class="tag-btn btn btn-primary">everyone</button> because I deserve <button type="button" class="tag-btn btn btn-primary">clean public transit</button></p>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 col-sm-offset-1">
+                          <h2 class="sidebar-header">Take Action!</h2>
+                            <p><a class="btn btn-warning btn-block" href="https://www.dosomething.org/">Do something about it!</a></p>
+                            <p><a class="btn btn-warning btn-block" href="http://www.meetup.com/">Organize a meetup</a></p>
+                            <p><a class="btn btn-warning btn-block" href="https://www.change.org/">Sign a petition</a></p>
+                            <p><a class="btn btn-warning btn-block" href="">Attend a rally</a></p>
+                          <h2 class="sidebar-header">Educate Yourself!</h2>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                      Recent Transportation Legislation
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                  <div class="panel-body">
+                                    <p><a href="http://ti.house.gov/prria/">Transportation and Infrastructure Committee</a> votes to spend more money on intra-city bus routes</p>
+                                    <p><a href="#">Add your own link!</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Local Advocacy Groups
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                  <div class="panel-body">
+                                    <p>Boston City Government partners with <a href="http://www.peopleforbikes.org/green-lane-project">The Green Lane Project</a></p>
+                                    <p><a href="#">Add information about your own group!</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Background Information on this Topic
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="panel-body">
+                                    <p>Transportation infrastructure is an important part of any city government, allowing citizens...</p>
+                                    <p><a href="#">Edit this information</a></p>
+                                  </div>
+                                </div>
+                              </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>Build with ♥ in Boston</p>
+            </div>
+        </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

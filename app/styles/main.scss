@@ -1,0 +1,225 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+
+$brand-primary: #03B0E9;
+
+$brand-white: #F8FAFB;
+$brand-success: #FFD681;
+$brand-info: #A3DFEA;
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: $brand-primary;
+    color: $brand-white;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid rgba($brand-info, 0.3);
+
+    /* Make the masthead heading the same height as the navigation */
+    h3.brand {
+        color: $brand-white;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+        .color{
+            color: $brand-success;
+        }
+    }
+}
+
+/* Custom page footer */
+.footer {
+    background: $brand-primary;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 19px;
+    border-top: 1px solid rgba($brand-info, 0.3);
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    background: none;
+    text-align: center;
+}
+
+.form-human{
+    text-align: center;
+    .form-human-content{
+        color: rgba($brand-white, 0.8);
+    }
+    .form-human-content, .form-human-input{
+        display: inline-block;
+        padding-top: 0.6em;
+        font-size: 3em;
+    }
+    .form-human-input{
+        padding: 0 0.3em;
+        background: none;
+        border: none;
+        border-bottom: 2px solid $brand-white;
+        &:focus{
+            outline: none;
+        }
+        &::-webkit-input-placeholder {
+           color: rgba($brand-white, 0.3);
+        }
+    }
+    .form-human-btn{
+        border: 4px solid $brand-success;
+        color: $brand-success;
+        border-radius: 4px;
+        background: none;
+        font-size: 3em;
+        padding: 0 0.5em;
+        margin-left: 0.5em;
+        &:focus, &:hover{
+            outline: none;
+            color: $brand-primary;
+            background-color: $brand-success;
+            transition: color 0.5s;
+        }
+    }
+}
+
+
+.tag{
+    display: inline-block;
+    padding: 0.2em 1.2em;
+    margin: 0 1em 0 0.5em;
+    background: $brand-info;
+    color: darken($brand-primary, 5%);
+    border-radius: 2px;
+    position: relative;
+    &:hover{
+        cursor: pointer;
+        &:after{
+            content: "x";
+            position: absolute;
+            top: 10%;
+            right: -10px;
+        }
+    }
+}
+
+.search-opt-text{
+    padding-top: 2em;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.filter-text{
+    border-bottom: 1px dotted $brand-white;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1080px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+a{
+    color: $brand-success;
+    &:hover{
+        color: darken($brand-success, 10%);
+    }
+}
+
+.panel{
+    margin-bottom: 0;
+    border-radius: 0;
+    color: $gray;
+    a{
+        color: darken($brand-primary, 20%);
+        &:hover{
+            color: darken($brand-primary, 20%);
+        }
+    }
+}
+
+.card{
+    background: $brand-white;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.1);
+    color: $gray-dark;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.issue-results-container{
+    margin-bottom: 5em;
+}
+
+#issue-well {
+    font-size: 20px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#other-people {
+    font-size: 30px;
+    text-align: center;
+}
+
+#tags p {
+    text-align: center;
+}
+
+.tag-btn {
+    line-height: 6px;
+}
+
+.tag-btn-top {
+    line-height: 8px;
+    text-align: center;
+}
