@@ -31,7 +31,11 @@ We focused on the above challenge, and came up with a tool aimed to simply and q
 1. Identify an issue 'close to home': **"I think the MBTA fares are too high. As a student, I can't afford to get to school"**
 2. Find others who share the same issue: **"Who else thinks this is a problem? Is it just me?"**
 3. Gain confidence & validate your internal issue by seeing it as a problem in the community: **"Lots of people share my problem"**
-4-N. Learn about the issue (pros, cons of solutions), brainstorm solutions, take action, etc.
+4. Learn about the issue (pros, cons of solutions) 
+5. brainstorm solutions
+6. vote or otherwise come to a consensus
+7. take action
+8. iterate
 
 We focused on these first three steps. 
 
